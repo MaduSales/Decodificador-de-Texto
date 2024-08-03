@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/style.css">
+    <link rel="shortcut icon" href="./img/icon2.png" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/16b6439343.js" crossorigin="anonymous"></script>
+    <title>Encriptador</title>
+</head>
+<body>
+    <header>
+        <img src="./img/Logo.png" alt="Logo da Alura" class="logo-alura">
+    </header>
+
+    <main>
+        <section class="part-one">
+            <textarea class="text-area" cols="41" rows="5"  placeholder="Digite seu texto"></textarea>
+
+            <div class="info">
+                <div class="icon"><i class="fa-solid fa-circle-info"></i></div>
+                <h5 class="subtitle">Apenas letras minúsculas e sem acento.</h5>
+            </div>
+
+            <div class="buttons">
+                <button class="btn-criptografar" onclick="btnEncriptar()">Criptografar</button>
+                <button class="btn-descriptografar" onclick="btnDesencriptar()">Descriptografar</button>
+            </div>
+        </section>
+
+        <section class="part-two">
+            <textarea class="message" cols="20" rows="10" readonly></textarea>
+            <div class="not-found-message">
+                <h3 class="bolder-text">Nenhuma mensagem <br>encontrada</h3>
+                <h5 class="thinner-text">Digite um texto que você deseja <br>criptografar ou descriptografar.</h5>
+            </div>
+            <button class="btn-copy" onclick="copy()">Copiar</button>
+        </section>
+    </main>
+
+    <script src="./assets/script.js"></script>
+</body>
+</html>

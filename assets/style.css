@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lato", sans-serif;
+}
+
+.logo-alura{
+    width: 80px;
+    margin: 30px 0px 0px 20px;
+}
+
+body{
+    background: #E5E5E5;
+    width: 100vw;
+    height: 100vh;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 80px;
+}
+
+textarea{
+    resize: none;
+    cursor: pointer;
+}
+
+.text-area{
+    border: none;
+    background: none;
+    color: #0A3871;
+    font-size: 32px;
+    text-transform: lowercase;
+    margin-left: 35px;
+    height: 330px;
+    margin: 50px 35px;
+}
+
+::placeholder {
+    color: #0A3871;
+    text-transform: initial;
+}
+
+.text-area:focus{
+    outline: none;
+}
+
+.message{
+    position: relative;
+    background: white;
+    border-radius: 24px;
+    border: none;
+    box-shadow: 0px 1px 8px #0a387170;
+    background-image: url("../img/Imagem1.png");
+    background-repeat: no-repeat;
+    background-size: 75%;
+    background-position: center;
+    color: #0A3871;
+    font-size: 24px;
+    padding: 32px; 
+    width: 19rem;
+    height: 37rem;
+    margin: -60px 0px 0px 50px;
+}
+
+.message:focus{
+    outline: none;
+}
+
+.not-found-message{
+    position: absolute;
+    top: 28rem; 
+    left: 62rem;
+    text-align: center;
+    color: #495057;
+}
+
+.bolder-text{
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.thinner-text{
+    font-weight: 400;
+}
+
+.btn-copy{
+    position: absolute;
+    background-color: white;
+    color: #0A3871;
+    border: 1px solid #0A3871;
+    padding: 15px 0;
+    display: block;
+    top: 33rem; 
+    left: 802px;
+    transform: translateX(50%);
+    text-align: center; 
+    width: 20%;
+    visibility: hidden;
+}
+
+.info{
+    display: flex;
+    margin-left: 40px;
+    color: #495057;
+}
+
+.icon{
+    font-size: 12px;
+}
+
+.subtitle{
+    margin-left: 10px;
+    font-size: 11px;
+}
+
+.buttons{
+    display: flex;
+    align-items: center;
+    margin: 0 20px;
+}
+
+button{
+    margin: 15px 20px;
+    width: 40%;
+    font-weight: bold;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.btn-criptografar{
+    background-color: #0A3871;
+    color: white;
+    border: none;
+    padding: 15px 0;
+}
+
+.btn-descriptografar{
+    background-color: #E5E5E5;
+    color: #0A3871;
+    border: 1px solid #0A3871;
+    padding: 15px 0;
+}
+
+
+
+
+
