@@ -4,7 +4,7 @@
 
 
 
-Projeto com HTML, CSS e JavaScript de um encriptador de texto, do qual o suário pode inserir um texto normal (atendendo as condições), e terá um texto codificado. O inverso também ocorre caso o usuário queira copiar o texto codificado, para decodificá-lo. 
+Projeto com HTML, CSS e JavaScript de um encriptador de texto, do qual o suário pode inserir um texto normal (atendendo as condições), e terá um texto codificado. O inverso também ocorre caso o usuário queira copiar o texto codificado, para decodificá-lo.
 
 Projeto construído durante o curso Oracle Next Education com a Alura Latam.
 
