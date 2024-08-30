@@ -24,3 +24,4 @@ Projeto construído durante o curso Oracle Next Education com a Alura Latam.
 - ## Contato
 [(LinkedIn)](www.linkedin.com/in/mariaeduardasales)
 E-mail: maria.mirandadev@gmail.com
+
